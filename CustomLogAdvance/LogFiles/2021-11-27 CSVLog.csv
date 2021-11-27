@@ -1,0 +1,65 @@
+time,level,message,callsite,User
+46:38.7,Debug,Application starting,CustomLogAdvance.Program.Main,
+46:48.4,Info,Enter get api,CustomLogAdvance.Controllers.WeatherForecastController.Get,
+46:48.4,Info,Write author,CustomLogAdvance.Controllers.WeatherForecastController.Get,
+46:48.4,Info,Fetching weather data,CustomLogAdvance.Controllers.WeatherForecastController.Get,
+46:48.5,Error,"System.Exception: Get data failed
+   at CustomLogAdvance.Controllers.WeatherForecastController.Get() in E:\A new start\dot net 5\ExceptionLog\CustomLogAdvance\Controllers\WeatherForecastController.cs:line 38",CustomLogAdvance.Controllers.WeatherForecastController.Get,
+52:36.0,Debug,Application starting,CustomLogAdvance.Program.Main,
+52:43.1,Info,Enter get api,CustomLogAdvance.Controllers.WeatherForecastController.Get,
+52:43.1,Info,Write author,CustomLogAdvance.Controllers.WeatherForecastController.Get,Akash
+52:43.1,Info,Fetching weather data,CustomLogAdvance.Controllers.WeatherForecastController.Get,Akash
+52:43.2,Error,"System.Exception: Get data failed
+   at CustomLogAdvance.Controllers.WeatherForecastController.Get() in E:\A new start\dot net 5\ExceptionLog\CustomLogAdvance\Controllers\WeatherForecastController.cs:line 38",CustomLogAdvance.Controllers.WeatherForecastController.Get,Akash
+2021-11-27 14:53:36.9436,Info,Enter get api,CustomLogAdvance.Controllers.WeatherForecastController.Get,Akash
+2021-11-27 14:53:36.9436,Info,Write author,CustomLogAdvance.Controllers.WeatherForecastController.Get,Akash
+2021-11-27 14:53:36.9655,Info,Fetching weather data,CustomLogAdvance.Controllers.WeatherForecastController.Get,Akash
+2021-11-27 14:53:37.0504,Error,"System.Exception: Get data failed
+   at CustomLogAdvance.Controllers.WeatherForecastController.Get() in E:\A new start\dot net 5\ExceptionLog\CustomLogAdvance\Controllers\WeatherForecastController.cs:line 38",CustomLogAdvance.Controllers.WeatherForecastController.Get,Akash
+2021-11-27 14:54:44.9342,Info,Enter get api,CustomLogAdvance.Controllers.WeatherForecastController.Get,Akash
+2021-11-27 14:54:44.9398,Info,Write author,CustomLogAdvance.Controllers.WeatherForecastController.Get,Akash
+2021-11-27 14:54:44.9581,Info,Fetching weather data,CustomLogAdvance.Controllers.WeatherForecastController.Get,Akash
+2021-11-27 14:54:45.0249,Error,"System.Exception: Get data failed
+   at CustomLogAdvance.Controllers.WeatherForecastController.Get() in E:\A new start\dot net 5\ExceptionLog\CustomLogAdvance\Controllers\WeatherForecastController.cs:line 38",CustomLogAdvance.Controllers.WeatherForecastController.Get,Akash
+2021-11-27 17:59:38.2015,Debug,Application starting,CustomLogAdvance.Program.Main,
+2021-11-27 18:00:00.7074,Info,Enter get api,CustomLogAdvance.Controllers.WeatherForecastController.Get,
+2021-11-27 18:00:00.7074,Info,Write author,CustomLogAdvance.Controllers.WeatherForecastController.Get,Akash
+2021-11-27 18:00:00.7250,Info,Fetching weather data,CustomLogAdvance.Controllers.WeatherForecastController.Get,Akash
+2021-11-27 18:00:00.8538,Error,"System.Exception: Get data failed
+   at CustomLogAdvance.Controllers.WeatherForecastController.Get() in E:\A new start\dot net 5\ExceptionLog\CustomLogAdvance\Controllers\WeatherForecastController.cs:line 38",CustomLogAdvance.Controllers.WeatherForecastController.Get,Akash
+2021-11-27 18:03:36.9195,Debug,Application starting,CustomLogAdvance.Program.Main,
+2021-11-27 18:03:48.1182,Info,Enter get api,CustomLogAdvance.Controllers.WeatherForecastController.Get,
+2021-11-27 18:03:48.1325,Info,Write author,CustomLogAdvance.Controllers.WeatherForecastController.Get,Akash
+2021-11-27 18:03:48.1325,Info,Fetching weather data,CustomLogAdvance.Controllers.WeatherForecastController.Get,Akash
+2021-11-27 18:03:48.2427,Error,"System.Exception: Get data failed
+   at CustomLogAdvance.Controllers.WeatherForecastController.Get() in E:\A new start\dot net 5\ExceptionLog\CustomLogAdvance\Controllers\WeatherForecastController.cs:line 38",CustomLogAdvance.Controllers.WeatherForecastController.Get,Akash
+2021-11-27 18:05:45.4489,Debug,Application starting,CustomLogAdvance.Program.Main,
+2021-11-27 18:05:54.8009,Info,Enter get api,CustomLogAdvance.Controllers.WeatherForecastController.Get,
+2021-11-27 18:05:54.8115,Info,Write author,CustomLogAdvance.Controllers.WeatherForecastController.Get,Akash
+2021-11-27 18:05:54.8115,Info,Fetching weather data,CustomLogAdvance.Controllers.WeatherForecastController.Get,Akash
+2021-11-27 18:05:54.9510,Error,"System.Exception: Get data failed
+   at CustomLogAdvance.Controllers.WeatherForecastController.Get() in E:\A new start\dot net 5\ExceptionLog\CustomLogAdvance\Controllers\WeatherForecastController.cs:line 38",CustomLogAdvance.Controllers.WeatherForecastController.Get,Akash
+2021-11-27 18:19:06.5691,Debug,Application starting,CustomLogAdvance.Program.Main,
+2021-11-27 18:19:18.9689,Info,Enter get api,CustomLogAdvance.Controllers.WeatherForecastController.Get,
+2021-11-27 18:19:18.9936,Info,Write author,CustomLogAdvance.Controllers.WeatherForecastController.Get,Akash
+2021-11-27 18:19:19.0008,Info,Fetching weather data,CustomLogAdvance.Controllers.WeatherForecastController.Get,Akash
+2021-11-27 18:19:19.1232,Error,"System.Exception: Get data failed
+   at CustomLogAdvance.Controllers.WeatherForecastController.Get() in E:\A new start\dot net 5\ExceptionLog\CustomLogAdvance\Controllers\WeatherForecastController.cs:line 38",CustomLogAdvance.Controllers.WeatherForecastController.Get,Akash
+2021-11-27 18:20:24.0305,Debug,Application starting,CustomLogAdvance.Program.Main,
+2021-11-27 18:23:38.5579,Debug,Application starting,CustomLogAdvance.Program.Main,
+2021-11-27 18:23:48.8168,Info,Enter get api,CustomLogAdvance.Controllers.WeatherForecastController.Get,
+2021-11-27 18:23:48.8449,Info,Write author,CustomLogAdvance.Controllers.WeatherForecastController.Get,Akash
+2021-11-27 18:23:48.8772,Info,Fetching weather data,CustomLogAdvance.Controllers.WeatherForecastController.Get,Akash
+2021-11-27 18:23:49.0697,Error,"System.Exception: Get data failed
+   at CustomLogAdvance.Controllers.WeatherForecastController.Get() in E:\A new start\dot net 5\ExceptionLog\CustomLogAdvance\Controllers\WeatherForecastController.cs:line 38",CustomLogAdvance.Controllers.WeatherForecastController.Get,Akash
+2021-11-27 18:24:33.6730,Debug,Application starting,CustomLogAdvance.Program.Main,
+2021-11-27 18:24:42.3799,Info,Enter get api,CustomLogAdvance.Controllers.WeatherForecastController.Get,
+2021-11-27 18:24:42.3949,Info,Write author,CustomLogAdvance.Controllers.WeatherForecastController.Get,Akash
+2021-11-27 18:24:42.4055,Info,Fetching weather data,CustomLogAdvance.Controllers.WeatherForecastController.Get,Akash
+2021-11-27 18:24:42.5105,Error,"System.Exception: Get data failed
+   at CustomLogAdvance.Controllers.WeatherForecastController.Get() in E:\A new start\dot net 5\ExceptionLog\CustomLogAdvance\Controllers\WeatherForecastController.cs:line 38",CustomLogAdvance.Controllers.WeatherForecastController.Get,Akash
+2021-11-27 18:25:26.5621,Info,Enter get api,CustomLogAdvance.Controllers.WeatherForecastController.Get,Akash
+2021-11-27 18:25:26.5860,Info,Write author,CustomLogAdvance.Controllers.WeatherForecastController.Get,Akash
+2021-11-27 18:25:26.5966,Info,Fetching weather data,CustomLogAdvance.Controllers.WeatherForecastController.Get,Akash
+2021-11-27 18:25:26.6427,Error,"System.Exception: Get data failed
+   at CustomLogAdvance.Controllers.WeatherForecastController.Get() in E:\A new start\dot net 5\ExceptionLog\CustomLogAdvance\Controllers\WeatherForecastController.cs:line 38",CustomLogAdvance.Controllers.WeatherForecastController.Get,Akash
