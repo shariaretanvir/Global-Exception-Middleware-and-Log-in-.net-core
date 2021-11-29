@@ -142,3 +142,99 @@ Error Number:241,State:1,Class:16
 2021-11-27 18:25:23.3436 Info Adding target ColoredConsoleTarget(Name=consoleTarget)
 2021-11-27 18:25:23.3645 Info Closing old configuration.
 2021-11-27 18:25:23.3981 Info Validating config: TargetNames=consoleTarget, fileTarget, logfileCSV, logfileDB, ConfigItems=88, FilePath=E:\A new start\dot net 5\ExceptionLog\CustomLogAdvance/Config/nlog.config
+2021-11-30 00:34:05.2555 Info Message Template Auto Format enabled
+2021-11-30 00:34:07.2142 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-30 00:34:13.7791 Info Adding target FileTarget(Name=fileTarget)
+2021-11-30 00:34:17.3717 Info Adding target FileTarget(Name=logfileCSV)
+2021-11-30 00:34:17.4444 Info Adding target DatabaseTarget(Name=logfileDB)
+2021-11-30 00:34:17.5542 Info Adding target ColoredConsoleTarget(Name=consoleTarget)
+2021-11-30 00:34:19.3097 Info Validating config: TargetNames=consoleTarget, fileTarget, logfileCSV, logfileDB, ConfigItems=88, FilePath=E:\A new start\dot net 5\ExceptionLog\CustomLogAdvance/Config/nlog.config
+2021-11-30 00:45:04.4967 Info Message Template Auto Format enabled
+2021-11-30 00:45:04.7923 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-30 00:45:06.3736 Info Adding target FileTarget(Name=fileTarget)
+2021-11-30 00:45:06.4853 Info Adding target FileTarget(Name=logfileCSV)
+2021-11-30 00:45:06.4853 Info Adding target DatabaseTarget(Name=logfileDB)
+2021-11-30 00:45:06.5147 Info Adding target ColoredConsoleTarget(Name=consoleTarget)
+2021-11-30 00:45:06.8700 Info Validating config: TargetNames=consoleTarget, fileTarget, logfileCSV, logfileDB, ConfigItems=88, FilePath=E:\A new start\dot net 5\ExceptionLog\CustomLogAdvance/Config/nlog.config
+2021-11-30 00:45:08.5130 Warn Attempt #0 to open E:\A new start\dot net 5\ExceptionLog\CustomLogAdvance\LogFiles\2021-11-30 CSVLog.csv failed. Sleeping for 0ms
+2021-11-30 00:45:08.5455 Warn Attempt #1 to open E:\A new start\dot net 5\ExceptionLog\CustomLogAdvance\LogFiles\2021-11-30 CSVLog.csv failed. Sleeping for 0ms
+2021-11-30 00:45:08.5841 Warn Attempt #2 to open E:\A new start\dot net 5\ExceptionLog\CustomLogAdvance\LogFiles\2021-11-30 CSVLog.csv failed. Sleeping for 0ms
+2021-11-30 00:45:08.5841 Warn Attempt #3 to open E:\A new start\dot net 5\ExceptionLog\CustomLogAdvance\LogFiles\2021-11-30 CSVLog.csv failed. Sleeping for 3ms
+2021-11-30 00:45:08.5938 Warn Attempt #4 to open E:\A new start\dot net 5\ExceptionLog\CustomLogAdvance\LogFiles\2021-11-30 CSVLog.csv failed. Sleeping for 6ms
+2021-11-30 00:45:08.5938 Warn Attempt #5 to open E:\A new start\dot net 5\ExceptionLog\CustomLogAdvance\LogFiles\2021-11-30 CSVLog.csv failed. Sleeping for 23ms
+2021-11-30 00:45:08.6275 Warn Attempt #6 to open E:\A new start\dot net 5\ExceptionLog\CustomLogAdvance\LogFiles\2021-11-30 CSVLog.csv failed. Sleeping for 1ms
+2021-11-30 00:45:08.6275 Warn Attempt #7 to open E:\A new start\dot net 5\ExceptionLog\CustomLogAdvance\LogFiles\2021-11-30 CSVLog.csv failed. Sleeping for 82ms
+2021-11-30 00:45:08.7147 Warn Attempt #8 to open E:\A new start\dot net 5\ExceptionLog\CustomLogAdvance\LogFiles\2021-11-30 CSVLog.csv failed. Sleeping for 228ms
+2021-11-30 00:45:09.0940 Error FileTarget(Name=logfileCSV): Failed write to file 'E:\A new start\dot net 5\ExceptionLog\CustomLogAdvance\LogFiles\2021-11-30 CSVLog.csv'. Exception: System.IO.IOException: The process cannot access the file 'E:\A new start\dot net 5\ExceptionLog\CustomLogAdvance\LogFiles\2021-11-30 CSVLog.csv' because it is being used by another process.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at NLog.Internal.FileAppenders.BaseFileAppender.TryCreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.BaseFileAppender.CreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender.Write(Byte[] bytes, Int32 offset, Int32 count)
+   at NLog.Targets.FileTarget.WriteToFile(String fileName, ArraySegment`1 bytes, Boolean initializedNewFile)
+2021-11-30 00:45:14.6300 Warn Attempt #0 to open E:\A new start\dot net 5\ExceptionLog\CustomLogAdvance\LogFiles\2021-11-30 CSVLog.csv failed. Sleeping for 0ms
+2021-11-30 00:45:14.6300 Warn Attempt #1 to open E:\A new start\dot net 5\ExceptionLog\CustomLogAdvance\LogFiles\2021-11-30 CSVLog.csv failed. Sleeping for 0ms
+2021-11-30 00:45:14.6980 Warn Attempt #2 to open E:\A new start\dot net 5\ExceptionLog\CustomLogAdvance\LogFiles\2021-11-30 CSVLog.csv failed. Sleeping for 2ms
+2021-11-30 00:45:14.7011 Warn Attempt #3 to open E:\A new start\dot net 5\ExceptionLog\CustomLogAdvance\LogFiles\2021-11-30 CSVLog.csv failed. Sleeping for 3ms
+2021-11-30 00:45:14.7011 Warn Attempt #4 to open E:\A new start\dot net 5\ExceptionLog\CustomLogAdvance\LogFiles\2021-11-30 CSVLog.csv failed. Sleeping for 5ms
+2021-11-30 00:45:14.7011 Warn Attempt #5 to open E:\A new start\dot net 5\ExceptionLog\CustomLogAdvance\LogFiles\2021-11-30 CSVLog.csv failed. Sleeping for 21ms
+2021-11-30 00:45:14.7342 Warn Attempt #6 to open E:\A new start\dot net 5\ExceptionLog\CustomLogAdvance\LogFiles\2021-11-30 CSVLog.csv failed. Sleeping for 53ms
+2021-11-30 00:45:14.7890 Warn Attempt #7 to open E:\A new start\dot net 5\ExceptionLog\CustomLogAdvance\LogFiles\2021-11-30 CSVLog.csv failed. Sleeping for 50ms
+2021-11-30 00:45:14.8450 Warn Attempt #8 to open E:\A new start\dot net 5\ExceptionLog\CustomLogAdvance\LogFiles\2021-11-30 CSVLog.csv failed. Sleeping for 62ms
+2021-11-30 00:45:14.9129 Error FileTarget(Name=logfileCSV): Failed write to file 'E:\A new start\dot net 5\ExceptionLog\CustomLogAdvance\LogFiles\2021-11-30 CSVLog.csv'. Exception: System.IO.IOException: The process cannot access the file 'E:\A new start\dot net 5\ExceptionLog\CustomLogAdvance\LogFiles\2021-11-30 CSVLog.csv' because it is being used by another process.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at NLog.Internal.FileAppenders.BaseFileAppender.TryCreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.BaseFileAppender.CreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender.Write(Byte[] bytes, Int32 offset, Int32 count)
+   at NLog.Targets.FileTarget.WriteToFile(String fileName, ArraySegment`1 bytes, Boolean initializedNewFile)
+2021-11-30 00:45:15.2505 Warn Attempt #0 to open E:\A new start\dot net 5\ExceptionLog\CustomLogAdvance\LogFiles\2021-11-30 CSVLog.csv failed. Sleeping for 0ms
+2021-11-30 00:45:15.2629 Warn Attempt #1 to open E:\A new start\dot net 5\ExceptionLog\CustomLogAdvance\LogFiles\2021-11-30 CSVLog.csv failed. Sleeping for 1ms
+2021-11-30 00:45:15.2629 Warn Attempt #2 to open E:\A new start\dot net 5\ExceptionLog\CustomLogAdvance\LogFiles\2021-11-30 CSVLog.csv failed. Sleeping for 1ms
+2021-11-30 00:45:15.2629 Warn Attempt #3 to open E:\A new start\dot net 5\ExceptionLog\CustomLogAdvance\LogFiles\2021-11-30 CSVLog.csv failed. Sleeping for 0ms
+2021-11-30 00:45:15.2788 Warn Attempt #4 to open E:\A new start\dot net 5\ExceptionLog\CustomLogAdvance\LogFiles\2021-11-30 CSVLog.csv failed. Sleeping for 14ms
+2021-11-30 00:45:15.2952 Warn Attempt #5 to open E:\A new start\dot net 5\ExceptionLog\CustomLogAdvance\LogFiles\2021-11-30 CSVLog.csv failed. Sleeping for 6ms
+2021-11-30 00:45:15.2952 Warn Attempt #6 to open E:\A new start\dot net 5\ExceptionLog\CustomLogAdvance\LogFiles\2021-11-30 CSVLog.csv failed. Sleeping for 56ms
+2021-11-30 00:45:15.3599 Warn Attempt #7 to open E:\A new start\dot net 5\ExceptionLog\CustomLogAdvance\LogFiles\2021-11-30 CSVLog.csv failed. Sleeping for 100ms
+2021-11-30 00:45:15.4609 Warn Attempt #8 to open E:\A new start\dot net 5\ExceptionLog\CustomLogAdvance\LogFiles\2021-11-30 CSVLog.csv failed. Sleeping for 235ms
+2021-11-30 00:45:15.7009 Error FileTarget(Name=logfileCSV): Failed write to file 'E:\A new start\dot net 5\ExceptionLog\CustomLogAdvance\LogFiles\2021-11-30 CSVLog.csv'. Exception: System.IO.IOException: The process cannot access the file 'E:\A new start\dot net 5\ExceptionLog\CustomLogAdvance\LogFiles\2021-11-30 CSVLog.csv' because it is being used by another process.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at NLog.Internal.FileAppenders.BaseFileAppender.TryCreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.BaseFileAppender.CreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender.Write(Byte[] bytes, Int32 offset, Int32 count)
+   at NLog.Targets.FileTarget.WriteToFile(String fileName, ArraySegment`1 bytes, Boolean initializedNewFile)
+2021-11-30 00:46:31.2093 Info Message Template Auto Format enabled
+2021-11-30 00:46:31.4605 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-30 00:46:31.8474 Info Adding target FileTarget(Name=fileTarget)
+2021-11-30 00:46:31.9347 Info Adding target FileTarget(Name=logfileCSV)
+2021-11-30 00:46:31.9448 Info Adding target DatabaseTarget(Name=logfileDB)
+2021-11-30 00:46:31.9689 Info Adding target ColoredConsoleTarget(Name=consoleTarget)
+2021-11-30 00:46:32.0749 Info Validating config: TargetNames=consoleTarget, fileTarget, logfileCSV, logfileDB, ConfigItems=88, FilePath=E:\A new start\dot net 5\ExceptionLog\CustomLogAdvance/Config/nlog.config
+2021-11-30 00:47:49.5317 Info Message Template Auto Format enabled
+2021-11-30 00:47:49.5740 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-30 00:47:49.7799 Info Adding target FileTarget(Name=fileTarget)
+2021-11-30 00:47:49.8550 Info Adding target FileTarget(Name=logfileCSV)
+2021-11-30 00:47:49.8718 Info Adding target DatabaseTarget(Name=logfileDB)
+2021-11-30 00:47:49.8956 Info Adding target ColoredConsoleTarget(Name=consoleTarget)
+2021-11-30 00:47:50.0750 Info Validating config: TargetNames=consoleTarget, fileTarget, logfileCSV, logfileDB, ConfigItems=88, FilePath=E:\A new start\dot net 5\ExceptionLog\CustomLogAdvance/Config/nlog.config
+2021-11-30 00:52:48.5770 Info Message Template Auto Format enabled
+2021-11-30 00:52:48.6492 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-30 00:52:48.8374 Info Adding target FileTarget(Name=fileTarget)
+2021-11-30 00:52:48.8909 Info Adding target FileTarget(Name=logfileCSV)
+2021-11-30 00:52:48.9057 Info Adding target DatabaseTarget(Name=logfileDB)
+2021-11-30 00:52:48.9298 Info Adding target ColoredConsoleTarget(Name=consoleTarget)
+2021-11-30 00:52:49.0632 Info Validating config: TargetNames=consoleTarget, fileTarget, logfileCSV, logfileDB, ConfigItems=88, FilePath=E:\A new start\dot net 5\ExceptionLog\CustomLogAdvance/Config/nlog.config
+2021-11-30 00:54:36.0219 Info Message Template Auto Format enabled
+2021-11-30 00:54:36.0505 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-30 00:54:36.2429 Info Adding target FileTarget(Name=fileTarget)
+2021-11-30 00:54:36.3048 Info Adding target FileTarget(Name=logfileCSV)
+2021-11-30 00:54:36.3143 Info Adding target DatabaseTarget(Name=logfileDB)
+2021-11-30 00:54:36.3437 Info Adding target ColoredConsoleTarget(Name=consoleTarget)
+2021-11-30 00:54:36.4728 Info Validating config: TargetNames=consoleTarget, fileTarget, logfileCSV, logfileDB, ConfigItems=88, FilePath=E:\A new start\dot net 5\ExceptionLog\CustomLogAdvance/Config/nlog.config

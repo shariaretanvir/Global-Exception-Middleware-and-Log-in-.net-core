@@ -1,0 +1,17 @@
+time,level,message,callsite,User
+2021-11-30 00:34:29.3316,Debug,Application starting,CustomLogAdvance.Program.Main,
+2021-11-30 00:38:33.8654,Info,Enter get api,CustomLogAdvance.Controllers.WeatherForecastController.Get,
+2021-11-30 00:38:44.9943,Error,An unhandled exception has occurred while executing the request.,Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke,Akash
+2021-11-30 00:46:32.4644,Debug,Application starting,CustomLogAdvance.Program.Main,
+2021-11-30 00:46:35.7737,Fatal,Application startup exception,Microsoft.AspNetCore.Hosting.HostingLoggerExtensions.ApplicationError,
+2021-11-30 00:46:35.9301,Error,Application stoped for exception,CustomLogAdvance.Program.Main,
+2021-11-30 00:47:50.3599,Debug,Application starting,CustomLogAdvance.Program.Main,
+2021-11-30 00:47:53.6352,Fatal,Application startup exception,Microsoft.AspNetCore.Hosting.HostingLoggerExtensions.ApplicationError,
+2021-11-30 00:47:53.9027,Error,Unable to resolve service for type 'NLog.ILogger' while attempting to activate 'CustomLogAdvance.Middlewares.CustomGlobalExceptionMiddleware'.,CustomLogAdvance.Program.Main,
+2021-11-30 00:52:49.3183,Debug,Application starting,CustomLogAdvance.Program.Main,
+2021-11-30 00:53:09.4434,Info,Enter get api,CustomLogAdvance.Controllers.WeatherForecastController.Get,
+2021-11-30 00:53:12.8324,Error,Force global error,CustomLogAdvance.Middlewares.CustomGlobalExceptionMiddleware.InvokeAsync,Akash
+2021-11-30 00:54:36.8064,Debug,Application starting,CustomLogAdvance.Program.Main,
+2021-11-30 00:54:49.0752,Info,Enter get api,CustomLogAdvance.Controllers.WeatherForecastController.Get,
+2021-11-30 00:54:52.8756,Error,Force global error,CustomLogAdvance.Middlewares.CustomGlobalExceptionMiddleware.InvokeAsync,Akash
+2021-11-30 00:54:52.9173,Error,"{""StatusCode"":500,""ErrorMessage"":""Force global error""}",CustomLogAdvance.Middlewares.CustomGlobalExceptionMiddleware.ReturnCustomGlobalError,Akash

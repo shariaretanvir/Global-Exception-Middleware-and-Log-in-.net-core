@@ -30,7 +30,7 @@ namespace CustomLogAdvance.Controllers
             List<WeatherForecast> weatherForecasts = new List<WeatherForecast>();
             _logger.LogInformation("Enter get api");
             GlobalDiagnosticsContext.Set("Author", "Akash");
-            
+            throw new Exception("Force global error");
             _logger.LogInformation("Write author");
             try
             {

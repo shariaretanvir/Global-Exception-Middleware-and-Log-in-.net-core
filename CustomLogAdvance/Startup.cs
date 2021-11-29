@@ -1,3 +1,4 @@
+using CustomLogAdvance.Extensions;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -43,7 +44,7 @@ namespace CustomLogAdvance
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "CustomLogAdvance v1"));
             }
-
+            app.CustomGlobalException();
             app.UseHttpsRedirection();
 
             app.UseRouting();

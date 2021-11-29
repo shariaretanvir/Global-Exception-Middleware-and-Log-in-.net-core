@@ -23,7 +23,7 @@ namespace CustomLogAdvance
             }
             catch (Exception ex)
             {
-                logger.Error("Application stoped for exception");
+                logger.Error(ex.Message);
                 throw;
             }
             finally
